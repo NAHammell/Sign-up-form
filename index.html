@@ -9,10 +9,14 @@
     <title>Sign-up Form</title>
 </head>
 <body>
-    <div>
+    <div id="blurb">
+        <p>Blah blah blah</p>
+    </div>
+
+    <div id="formdiv">
         <form action="" method="post">
             <h2>Let's do this!</h2>
-            <div>
+            <div class="inputbox" id="inputs1">
                 <label for="fname">First Name</label>
                 <input type="text" name="fname" id="fname">
 
@@ -22,17 +26,22 @@
                 <label for="userpass">Password</label>
                 <input type="password" name="userpass" id="userpass">
             </div>
-            <div>
+            <div class="inputbox" id="inputs2">
                 <label for="lname">Last Name</label>
                 <input type="text" name="lname" id="lname">
 
                 <label for="userphone">Phone Number</label>
                 <input type="tel" name="userphone" id="userphone">
-                
+
                 <label for="passconfirm">Confirm Password</label>
                 <input type="password" name="passconfirm" id="passconfirm">
             </div>
         </form>
+    </div>
+
+    <div id="submitbox">
+        <button type="submit">Create Account</button>
+        <p>Already have an account? Log in</p>
     </div>
 </body>
 </html>
