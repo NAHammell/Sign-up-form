@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+#background {
+    width: 35vw;
+    height: auto;
+    background-color: darkgray;
+}
