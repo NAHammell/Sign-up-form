@@ -9,6 +9,8 @@ body {
     width: 30vw;
     height: 100vh;
     background-color: darkgray;
+    background-image: url('./Assets/reef.jpg');
+    background-size: 36vw;
 }
 
 #logo {
@@ -31,6 +33,18 @@ body {
 #blurb {
     height: 42vh;
     background-color: lightgray;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+#blurbtext {
+    max-width: 50ch;
+    margin-left: 48px;
+    margin-top: 128px;
+}
+
+#blurbtext p {
+    margin-top: 48px;
 }
 
 #submitbox {
@@ -48,9 +62,10 @@ body {
 }
 
 #formdiv h2 {
-    margin-left: 32px;
+    margin-left: 48px;
     margin-bottom: 16px;
     margin-top: 16px;
+    font-weight: 500;
 }
 
 #inputcontainer {
@@ -64,7 +79,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 8px;
-    margin-left: 32px;
+    margin-left: 48px;
 }
 
 #inputs2 {
@@ -81,13 +96,9 @@ body {
     color: red;
 }
 
-#submitbox {
-    font-family: 'Roboto', sans-serif;
-}
-
 #subbtn {
-    margin-left: 32px;
-    margin-top: 32px;
+    margin-left: 48px;
+    margin-top: 48px;
     height: 48px;
     width: 216px;
     border: none;
@@ -100,8 +111,8 @@ body {
 }
 
 #submitbox p {
-    margin-left: 32px;
-    margin-top: 32px;
+    margin-left: 48px;
+    margin-top: 48px;
 }
 
 #submitbox a {
