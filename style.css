@@ -79,6 +79,13 @@ body {
 #subbtn {
     margin-left: 32px;
     margin-top: 32px;
+    height: 48px;
+    width: 216px;
+}
+
+#submitbox p {
+    margin-left: 32px;
+    margin-top: 32px;
 }
 
 .textinput:active, .textinput:focus {
@@ -90,7 +97,7 @@ body {
     padding: 6px;
     margin-bottom: 24px;
     height: 28px;
-    width: 192px;
+    width: 264px;
     border: 1px solid lightgray;
     border-radius: 4px;
     outline: none;
