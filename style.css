@@ -13,7 +13,7 @@ body {
 
 #logo {
     position: relative;
-    top: 20%;
+    top: 22vh;
     width: 100%;
     height: 160px;
     background-color: black;
@@ -28,8 +28,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-#blurb, #submitbox {
-    height: 33vh;
+#blurb {
+    height: 42vh;
+    background-color: lightgray;
+}
+
+#submitbox {
+    height: 24vh;
     background-color: lightgray;
 }
 
@@ -76,16 +81,32 @@ body {
     color: red;
 }
 
+#submitbox {
+    font-family: 'Roboto', sans-serif;
+}
+
 #subbtn {
     margin-left: 32px;
     margin-top: 32px;
     height: 48px;
     width: 216px;
+    border: none;
+    border-radius: 6px;
+    background-color: blue;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 850;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 #submitbox p {
     margin-left: 32px;
     margin-top: 32px;
+}
+
+#submitbox a {
+    text-decoration: none;
+    color: blue;
 }
 
 .textinput:active, .textinput:focus {
