@@ -103,7 +103,7 @@ body {
 #passerr {
     display: none;
     position: absolute;
-    top: 640px;
+    top: 680px;
     font-size: 0.8em;
     color: red;
 }
